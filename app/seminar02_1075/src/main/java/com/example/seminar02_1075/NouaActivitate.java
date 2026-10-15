@@ -36,7 +36,6 @@ public class NouaActivitate extends AppCompatActivity {
             return insets;
         });
     }
-
     public void openActivity(View view) {
         Intent it = new Intent(this, ActivitateRezultat.class);
         Bundle bundle = new Bundle();
