@@ -7,4 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".ActivitateRezultat">
 
+    <Button
+        android:id="@+id/btnInapoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="trimite suma inapoi"
+        android:onClick="trimiteInapoi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
