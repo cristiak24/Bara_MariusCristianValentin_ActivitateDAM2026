@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Casa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/creeaza_ti_casa" />
+
+    <EditText
+        android:id="@+id/ET_nume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/casa_lui_pablo" />
+
+    <EditText
+        android:id="@+id/ET_suprafata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/suprafata_mp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tip_casa" />
+
+    <RadioGroup
+        android:id="@+id/RG_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/RB_parter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/parter" />
+
+        <RadioButton
+            android:id="@+id/RB_etaj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cu_etaj" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oras" />
+
+    <Spinner
+        android:id="@+id/SP_oras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/orase" />
+
+    <Switch
+        android:id="@+id/SW_piscina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/are_piscina" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rating" />
+
+    <RatingBar
+        android:id="@+id/RB_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1" />
+
+    <CheckBox
+        android:id="@+id/CB_seminar_nou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/esti_sigur_ca_vrei_sa_ti_creezi_casa" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="culegereDate"
+        android:text="@string/apasa" />
+</LinearLayout>

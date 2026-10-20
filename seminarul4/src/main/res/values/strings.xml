@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Seminarul4</string>
+    <string name="apasa">Apasa</string>
+    <string name="exemplu_ion">Exemplu Ion</string>
+    <string name="seminar_nou">Seminar nou</string>
+    <string name="creeaza_ti_casa">Creeaza-ti Casa</string>
+    <string name="casa_lui_pablo">Casa lui Pablo</string>
+    <string name="esti_sigur_ca_vrei_sa_ti_creezi_casa">Esti sigur ca vrei sa ti creezi casa</string>
+    <string name="suprafata_mp">Suprafata mp</string>
+    <string name="tip_casa">Tip Casa</string>
+    <string name="parter">Parter</string>
+    <string name="cu_etaj">Cu etaj</string>
+    <string name="oras">Oras</string>
+    <string name="are_piscina">Are Piscina</string>
+    <string name="rating">Rating</string>
+    <string name="adauga_casa">Adauga casa</string>
+    <string-array name="orase">
+        <item>Bucuresti</item>
+        <item>Cluj-Napoca</item>
+        <item>Iasi</item>
+        <item>Timisoara</item>
+        <item>Constanta</item>
+    </string-array>
+</resources>
